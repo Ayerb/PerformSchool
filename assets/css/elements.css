@@ -1,0 +1,54 @@
+:root {
+   --primary-color: #0A1128;
+   --white-color: #FFFFFF;
+   --light-gray-color: #EEEEEE;
+   --secondary-color: crimson;
+   --gap: 3rem;
+}
+   
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: "Open Sans", sans-serif;
+   font-size: 1.6rem;
+   color: var(--primary-color);
+   line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Montserrat", sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+.responsive-table {
+   overflow: hidden;
+   overflow-x: auto;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+table td, table th {
+   padding: 0.7rem;
+   text-align: left;
+   border: 0.1rem solid var(--light-gray-color);
+}
+
+tfoot td, table th {
+   text-align: center;
+   background-color:slategray;
+}
