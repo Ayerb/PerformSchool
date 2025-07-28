@@ -295,10 +295,7 @@ min-height: 100vh;
    transform: rotate(-90deg);
 }
 
-@media (max-width: 800px) {
-   body {
-      overflow-x: hidden;
-   }
+@media (max-width: 80rem) {
 
  .grid {
       grid-template-columns: 1fr;
