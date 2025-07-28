@@ -169,6 +169,11 @@ min-height: 100vh;
    transform: rotate(5deg);
 }
 
+.responsive-table {
+   overflow: hidden;
+   overflow-x: auto;
+}
+
 .gallery-img {
    width: 100%;
    max-width: 36rem;
@@ -379,4 +384,5 @@ min-height: 100vh;
 .menu-spacing {
    display: none;
 }
+
 }
