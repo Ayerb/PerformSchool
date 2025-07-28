@@ -385,4 +385,9 @@ min-height: 100vh;
    display: none;
 }
 
+table td,
+table th {
+  white-space: nowrap;
+}
+
 }
