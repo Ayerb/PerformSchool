@@ -15,6 +15,7 @@
 html {
    font-size: 62.5%;
    scroll-behavior: smooth;
+   overflow-x: hidden;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
    font-size: 1.6rem;
    color: var(--primary-color);
    line-height: 1.5;
+   overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,17 +34,13 @@ a {
    text-decoration: none;
 }
 
-.responsive-table {
-   overflow: hidden;
-   overflow-x: auto;
-}
-
 table {
    width: 100%;
    border-collapse: collapse;
 }
 
 table td, table th {
+   white-space: nowrap;
    padding: 0.7rem;
    text-align: left;
    border: 0.1rem solid var(--light-gray-color);
